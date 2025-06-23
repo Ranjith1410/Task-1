@@ -1,0 +1,39 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-06-23 15:47 +0530
+Nmap scan report for 192.168.0.1
+Host is up (0.0052s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+80/tcp   open     http
+1900/tcp open     upnp
+MAC Address: 60:A4:B7:B3:EF:C4 (TP-Link Limited)
+
+Nmap scan report for 192.168.0.101
+Host is up (0.00095s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT      STATE    SERVICE
+25/tcp    filtered smtp
+110/tcp   filtered pop3
+119/tcp   filtered nntp
+125/tcp   filtered locus-map
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+143/tcp   filtered imap
+445/tcp   open     microsoft-ds
+465/tcp   filtered smtps
+548/tcp   filtered afp
+563/tcp   filtered snews
+587/tcp   filtered submission
+800/tcp   filtered mdbs_daemon
+903/tcp   filtered iss-console-mgr
+993/tcp   filtered imaps
+995/tcp   filtered pop3s
+1025/tcp  filtered NFS-or-IIS
+1122/tcp  filtered availant-mgr
+1433/tcp  filtered ms-sql-s
+3580/tcp  open     nati-svrloc
+5357/tcp  open     wsdapi
+8080/tcp  open     http-proxy
+27000/tcp open     flexlm0
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 40.21 seconds
